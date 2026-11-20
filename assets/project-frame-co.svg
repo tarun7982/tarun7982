@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="720" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#292019"/>
+      <stop offset="1" stop-color="#211B31"/>
+    </linearGradient>
+    <linearGradient id="shape" x1="481" y1="51" x2="648" y2="163" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5C45E"/>
+      <stop offset="1" stop-color="#F08C6B"/>
+    </linearGradient>
+  </defs>
+  <rect x=".75" y=".75" width="718.5" height="218.5" rx="18" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity=".14" stroke-width="1.5"/>
+  <circle cx="610" cy="106" r="95" fill="#F5C45E" fill-opacity=".08"/>
+  <rect x="463" y="39" width="204" height="141" rx="12" fill="#171621" stroke="#FFFFFF" stroke-opacity=".18"/>
+  <rect x="478" y="54" width="174" height="112" rx="8" fill="#F5C45E" fill-opacity=".08"/>
+  <path d="M491 139c16-34 28-53 44-53s23 39 40 39 27-44 62-59" stroke="url(#shape)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="535" cy="86" r="6" fill="#F5C45E"/>
+  <circle cx="575" cy="125" r="6" fill="#F08C6B"/>
+  <path d="M494 151h140" stroke="#FFFFFF" stroke-opacity=".18"/>
+  <path d="M503 151v7M535 151v7M567 151v7M599 151v7M631 151v7" stroke="#FFFFFF" stroke-opacity=".2"/>
+  <text x="48" y="80" fill="#F5C45E" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">FEATURED PROJECT</text>
+  <text x="48" y="120" fill="#F2F2FA" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700">Frame &amp; Co.</text>
+  <text x="48" y="151" fill="#AEB7CC" font-family="Segoe UI,Arial,sans-serif" font-size="15">Design agency · Story-led responsive experience</text>
+  <path d="M48 181h36" stroke="#F5C45E" stroke-width="2" stroke-linecap="round"/>
+  <path d="M78 176l6 5-6 5" stroke="#F5C45E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

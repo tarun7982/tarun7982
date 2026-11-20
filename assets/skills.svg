@@ -1,46 +1,40 @@
-<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="15">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="174" viewBox="0 0 1000 174" fill="none">
   <defs>
-    <linearGradient id="bar" x1="0" x2="1">
-      <stop offset="0" stop-color="#58a6ff"/>
-      <stop offset="1" stop-color="#a371f7"/>
+    <linearGradient id="card" x1="0" y1="0" x2="1000" y2="174" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16182B"/>
+      <stop offset="1" stop-color="#10242A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="70" y1="0" x2="930" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B7BFF"/>
+      <stop offset="1" stop-color="#38D6C3"/>
     </linearGradient>
   </defs>
-  <rect x="0.5" y="0.5" width="899" height="299" rx="12" fill="#0d1117" stroke="#30363d"/>
-
-  <g fill="#c9d1d9">
-    <text x="32" y="48">HTML5</text>
-    <text x="32" y="92">CSS3 / Animations</text>
-    <text x="32" y="136">JavaScript</text>
-    <text x="32" y="180">React</text>
-    <text x="32" y="224">Git &amp; GitHub</text>
-    <text x="32" y="268">Node.js</text>
-  </g>
-
-  <g fill="#21262d">
-    <rect x="220" y="37" width="560" height="10" rx="5"/>
-    <rect x="220" y="81" width="560" height="10" rx="5"/>
-    <rect x="220" y="125" width="560" height="10" rx="5"/>
-    <rect x="220" y="169" width="560" height="10" rx="5"/>
-    <rect x="220" y="213" width="560" height="10" rx="5"/>
-    <rect x="220" y="257" width="560" height="10" rx="5"/>
-  </g>
-
-  <g fill="url(#bar)">
-    <rect x="220" y="37" width="0" height="10" rx="5"><animate attributeName="width" from="0" to="504" dur="1.2s" begin="0.2s" fill="freeze"/></rect>
-    <rect x="220" y="81" width="0" height="10" rx="5"><animate attributeName="width" from="0" to="476" dur="1.2s" begin="0.4s" fill="freeze"/></rect>
-    <rect x="220" y="125" width="0" height="10" rx="5"><animate attributeName="width" from="0" to="448" dur="1.2s" begin="0.6s" fill="freeze"/></rect>
-    <rect x="220" y="169" width="0" height="10" rx="5"><animate attributeName="width" from="0" to="392" dur="1.2s" begin="0.8s" fill="freeze"/></rect>
-    <rect x="220" y="213" width="0" height="10" rx="5"><animate attributeName="width" from="0" to="392" dur="1.2s" begin="1.0s" fill="freeze"/></rect>
-    <rect x="220" y="257" width="0" height="10" rx="5"><animate attributeName="width" from="0" to="280" dur="1.2s" begin="1.2s" fill="freeze"/></rect>
-  </g>
-
-  <g fill="#8b949e" font-size="14" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1.4s" fill="freeze"/>
-    <text x="800" y="48">90%</text>
-    <text x="800" y="92">85%</text>
-    <text x="800" y="136">80%</text>
-    <text x="800" y="180">70%</text>
-    <text x="800" y="224">70%</text>
-    <text x="800" y="268">50%</text>
+  <rect x=".75" y=".75" width="998.5" height="172.5" rx="18" fill="url(#card)" stroke="#FFFFFF" stroke-opacity=".12" stroke-width="1.5"/>
+  <path d="M32 1h936" stroke="url(#accent)" stroke-width="2" stroke-linecap="round">
+    <animate attributeName="stroke-dasharray" values="0 936;936 0;0 936" dur="8s" repeatCount="indefinite"/>
+  </path>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <g transform="translate(58 45)">
+      <rect width="52" height="52" rx="15" fill="#8B7BFF" fill-opacity=".12"/>
+      <path d="m22 16-10 10 10 10M30 16l10 10-10 10M28 12l-6 28" stroke="#A99EFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="21" fill="#F1F2FA" font-size="17" font-weight="650">Interface craft</text>
+      <text x="70" y="45" fill="#9AA6BB" font-size="13">Responsive, accessible, considered UI</text>
+    </g>
+    <path d="M344 38v98" stroke="#FFFFFF" stroke-opacity=".1"/>
+    <g transform="translate(372 45)">
+      <rect width="52" height="52" rx="15" fill="#38D6C3" fill-opacity=".1"/>
+      <rect x="12" y="13" width="28" height="26" rx="4" stroke="#72E3D5" stroke-width="2"/>
+      <path d="M12 20h28M20 20v19M32 20v19M20 28h12" stroke="#72E3D5" stroke-width="1.5" stroke-opacity=".8"/>
+      <text x="70" y="21" fill="#F1F2FA" font-size="17" font-weight="650">Full-stack apps</text>
+      <text x="70" y="45" fill="#9AA6BB" font-size="13">Useful features from UI to database</text>
+    </g>
+    <path d="M674 38v98" stroke="#FFFFFF" stroke-opacity=".1"/>
+    <g transform="translate(702 45)">
+      <rect width="52" height="52" rx="15" fill="#F5C45E" fill-opacity=".1"/>
+      <path d="M26 12v8M26 32v8M12 26h8M32 26h8M16 16l5 5M31 31l5 5M36 16l-5 5M21 31l-5 5" stroke="#F5C45E" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="26" cy="26" r="6" stroke="#F5C45E" stroke-width="2"/>
+      <text x="70" y="21" fill="#F1F2FA" font-size="17" font-weight="650">Always learning</text>
+      <text x="70" y="45" fill="#9AA6BB" font-size="13">Exploring better tools and patterns</text>
+    </g>
   </g>
 </svg>

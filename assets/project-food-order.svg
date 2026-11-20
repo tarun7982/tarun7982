@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="720" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#251B24"/>
+      <stop offset="1" stop-color="#172734"/>
+    </linearGradient>
+    <linearGradient id="dish" x1="503" y1="60" x2="631" y2="158" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB86B"/>
+      <stop offset="1" stop-color="#F47778"/>
+    </linearGradient>
+  </defs>
+  <rect x=".75" y=".75" width="718.5" height="218.5" rx="18" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity=".14" stroke-width="1.5"/>
+  <circle cx="610" cy="106" r="95" fill="#F47778" fill-opacity=".08"/>
+  <rect x="463" y="39" width="204" height="141" rx="12" fill="#151923" stroke="#FFFFFF" stroke-opacity=".18"/>
+  <circle cx="552" cy="107" r="48" fill="#FFFFFF" fill-opacity=".06" stroke="#FFFFFF" stroke-opacity=".2" stroke-width="2"/>
+  <circle cx="552" cy="107" r="36" fill="url(#dish)"/>
+  <path d="M529 105c9-17 19-16 25-2s14 13 22-4" stroke="#FFF1D8" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="541" cy="122" r="3" fill="#5BAA73"/>
+  <circle cx="563" cy="91" r="3" fill="#5BAA73"/>
+  <path d="M611 78v54M624 78v54M637 78v54" stroke="#38D6C3" stroke-opacity=".7" stroke-width="3" stroke-linecap="round"/>
+  <path d="M611 91h26" stroke="#38D6C3" stroke-opacity=".7" stroke-width="3"/>
+  <text x="48" y="80" fill="#FFB86B" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">FEATURED PROJECT</text>
+  <text x="48" y="120" fill="#F2F2FA" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700">Food ordering</text>
+  <text x="48" y="151" fill="#AEB7CC" font-family="Segoe UI,Arial,sans-serif" font-size="15">Ordering system · WhatsApp integration</text>
+  <path d="M48 181h36" stroke="#FFB86B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M78 176l6 5-6 5" stroke="#FFB86B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="720" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18172C"/>
+      <stop offset="1" stop-color="#18263A"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="440" y1="60" x2="660" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B7BFF" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#38D6C3" stop-opacity=".55"/>
+    </linearGradient>
+  </defs>
+  <rect x=".75" y=".75" width="718.5" height="218.5" rx="18" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity=".14" stroke-width="1.5"/>
+  <circle cx="610" cy="102" r="95" fill="#8B7BFF" fill-opacity=".08"/>
+  <rect x="464" y="40" width="203" height="137" rx="12" fill="#10131D" stroke="#FFFFFF" stroke-opacity=".18"/>
+  <rect x="464" y="40" width="203" height="25" rx="12" fill="#FFFFFF" fill-opacity=".06"/>
+  <circle cx="480" cy="52" r="3" fill="#FF716A"/>
+  <circle cx="491" cy="52" r="3" fill="#F5C45E"/>
+  <circle cx="502" cy="52" r="3" fill="#48C99A"/>
+  <rect x="478" y="77" width="54" height="86" rx="6" fill="url(#glow)" fill-opacity=".75"/>
+  <rect x="542" y="79" width="107" height="8" rx="4" fill="#E8E7FF" fill-opacity=".8"/>
+  <rect x="542" y="94" width="89" height="5" rx="2.5" fill="#E8E7FF" fill-opacity=".32"/>
+  <rect x="542" y="108" width="97" height="5" rx="2.5" fill="#E8E7FF" fill-opacity=".2"/>
+  <rect x="542" y="126" width="54" height="20" rx="10" fill="#38D6C3" fill-opacity=".82"/>
+  <path d="M629 132h9" stroke="#10252D" stroke-width="2" stroke-linecap="round"/>
+  <text x="48" y="80" fill="#A99EFF" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">FEATURED PROJECT</text>
+  <text x="48" y="120" fill="#F2F2FA" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700">Portfolio</text>
+  <text x="48" y="151" fill="#AEB7CC" font-family="Segoe UI,Arial,sans-serif" font-size="15">Personal site · Responsive design · Motion</text>
+  <path d="M48 181h36" stroke="#38D6C3" stroke-width="2" stroke-linecap="round"/>
+  <path d="M78 176l6 5-6 5" stroke="#38D6C3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

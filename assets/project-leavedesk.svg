@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="720" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12272B"/>
+      <stop offset="1" stop-color="#172039"/>
+    </linearGradient>
+    <linearGradient id="card" x1="455" y1="38" x2="667" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A3940"/>
+      <stop offset="1" stop-color="#202842"/>
+    </linearGradient>
+  </defs>
+  <rect x=".75" y=".75" width="718.5" height="218.5" rx="18" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity=".14" stroke-width="1.5"/>
+  <circle cx="610" cy="106" r="95" fill="#38D6C3" fill-opacity=".08"/>
+  <rect x="463" y="39" width="204" height="141" rx="12" fill="url(#card)" stroke="#FFFFFF" stroke-opacity=".18"/>
+  <rect x="479" y="55" width="56" height="109" rx="8" fill="#0F1823" fill-opacity=".7"/>
+  <rect x="489" y="68" width="36" height="5" rx="2.5" fill="#38D6C3"/>
+  <rect x="489" y="82" width="28" height="4" rx="2" fill="#FFFFFF" fill-opacity=".25"/>
+  <rect x="489" y="96" width="33" height="4" rx="2" fill="#FFFFFF" fill-opacity=".25"/>
+  <rect x="489" y="110" width="23" height="4" rx="2" fill="#FFFFFF" fill-opacity=".25"/>
+  <rect x="548" y="55" width="102" height="47" rx="8" fill="#38D6C3" fill-opacity=".13" stroke="#38D6C3" stroke-opacity=".28"/>
+  <path d="M562 83v-8l7-7 7 7v8M566 83v-6h6v6" stroke="#72E3D5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="582" y="67" width="53" height="5" rx="2.5" fill="#E5F8F5" fill-opacity=".75"/>
+  <rect x="582" y="78" width="37" height="4" rx="2" fill="#E5F8F5" fill-opacity=".3"/>
+  <rect x="548" y="111" width="102" height="53" rx="8" fill="#FFFFFF" fill-opacity=".04"/>
+  <path d="M561 124h75M561 135h55M561 146h63" stroke="#FFFFFF" stroke-opacity=".18" stroke-width="4" stroke-linecap="round"/>
+  <text x="48" y="80" fill="#72E3D5" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">FEATURED PROJECT</text>
+  <text x="48" y="120" fill="#F2F2FA" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700">LeaveDesk</text>
+  <text x="48" y="151" fill="#AEB7CC" font-family="Segoe UI,Arial,sans-serif" font-size="15">Leave management · Role-based workflows</text>
+  <path d="M48 181h36" stroke="#38D6C3" stroke-width="2" stroke-linecap="round"/>
+  <path d="M78 176l6 5-6 5" stroke="#38D6C3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
