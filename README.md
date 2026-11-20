@@ -22,6 +22,10 @@ I’m Tarun, a frontend-leaning full-stack developer who enjoys turning ideas in
 
 <img src="assets/terminal.svg" alt="A quick introduction to Tarun and his development focus" width="100%" />
 
+<br/><br/>
+
+<img src="assets/dino-runner.svg" alt="An original animated dinosaur jogging through a colorful landscape" width="100%" />
+
 </div>
 
 ## Tech I use
