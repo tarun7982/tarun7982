@@ -1,51 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#10162A"/>
-      <stop offset=".55" stop-color="#14152D"/>
+    <linearGradient id="scene" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101525"/>
+      <stop offset=".52" stop-color="#17172D"/>
       <stop offset="1" stop-color="#10252D"/>
     </linearGradient>
-    <linearGradient id="title" x1="390" y1="125" x2="760" y2="210" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#8B7BFF"/>
-      <stop offset="1" stop-color="#38D6C3"/>
+    <linearGradient id="glass" x1="72" y1="34" x2="1104" y2="325" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity=".105"/>
+      <stop offset=".52" stop-color="#FFFFFF" stop-opacity=".035"/>
+      <stop offset="1" stop-color="#7AE8D7" stop-opacity=".055"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(0 185 -310 0 1040 36)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#38D6C3" stop-opacity=".2"/>
-      <stop offset="1" stop-color="#38D6C3" stop-opacity="0"/>
+    <linearGradient id="name" x1="105" y1="120" x2="475" y2="193" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B6A9FF"/>
+      <stop offset="1" stop-color="#67E2CF"/>
+    </linearGradient>
+    <radialGradient id="violetGlow" cx="0" cy="0" r="1" gradientTransform="matrix(0 196 -260 0 138 67)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8979FF" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#8979FF" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" stroke="#DDE6FF" stroke-opacity=".055"/>
-    </pattern>
-    <clipPath id="frame"><rect width="1200" height="330" rx="24"/></clipPath>
+    <radialGradient id="tealGlow" cx="0" cy="0" r="1" gradientTransform="matrix(0 177 -273 0 1060 250)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39D3BE" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#39D3BE" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="360" rx="26"/></clipPath>
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="1200" height="330" fill="url(#background)"/>
-    <rect width="1200" height="330" fill="url(#glow)"/>
-    <rect width="1200" height="330" fill="url(#grid)"/>
-    <circle cx="1018" cy="68" r="5" fill="#38D6C3">
-      <animate attributeName="opacity" values=".35;1;.35" dur="3.2s" repeatCount="indefinite"/>
+    <rect width="1200" height="360" fill="url(#scene)"/>
+    <circle cx="139" cy="68" r="95" fill="#8979FF" fill-opacity=".26" filter="url(#blur)">
+      <animate attributeName="cy" values="68;103;68" dur="12s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1080" cy="106" r="3" fill="#8B7BFF">
-      <animate attributeName="opacity" values="1;.3;1" dur="4s" repeatCount="indefinite"/>
+    <circle cx="1061" cy="261" r="100" fill="#39D3BE" fill-opacity=".2" filter="url(#blur)">
+      <animate attributeName="cy" values="261;225;261" dur="14s" repeatCount="indefinite"/>
     </circle>
-    <path d="M925 255c63-70 109-95 193-106" stroke="#38D6C3" stroke-opacity=".23" stroke-width="2" stroke-dasharray="5 9">
-      <animate attributeName="stroke-dashoffset" from="0" to="-56" dur="8s" repeatCount="indefinite"/>
-    </path>
-    <text x="600" y="96" text-anchor="middle" fill="#AEB7CC" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="5">HELLO, I'M</text>
-    <text x="600" y="174" text-anchor="middle" fill="url(#title)" font-family="Segoe UI,Arial,sans-serif" font-size="64" font-weight="700" letter-spacing="-2">Tarun</text>
-    <text x="600" y="216" text-anchor="middle" fill="#E5E9F2" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="500">Frontend-leaning Full Stack Developer</text>
-    <g transform="translate(440 258)" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">
-      <rect width="110" height="30" rx="15" fill="#8B7BFF" fill-opacity=".12" stroke="#8B7BFF" stroke-opacity=".35"/>
-      <circle cx="17" cy="15" r="4" fill="#9A8CFF"/>
-      <text x="30" y="19" fill="#DED9FF">BUILDING</text>
-      <rect x="122" width="137" height="30" rx="15" fill="#38D6C3" fill-opacity=".1" stroke="#38D6C3" stroke-opacity=".32"/>
-      <circle cx="139" cy="15" r="4" fill="#38D6C3"/>
-      <text x="152" y="19" fill="#C5F5EF">LEARNING</text>
+    <path d="M0 64h1200M0 296h1200" stroke="#FFFFFF" stroke-opacity=".035"/>
+    <rect x="22" y="22" width="1156" height="316" rx="22" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity=".2"/>
+    <path d="M44 23h1112" stroke="#FFFFFF" stroke-opacity=".25" stroke-linecap="round"/>
+    <circle cx="1150" cy="47" r="3" fill="#FFFFFF" fill-opacity=".6"/>
+    <circle cx="1135" cy="47" r="3" fill="#FFFFFF" fill-opacity=".28"/>
+
+    <text x="76" y="96" fill="#AEB7CC" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3">HELLO, I'M</text>
+    <text x="72" y="170" fill="url(#name)" font-family="Segoe UI,Arial,sans-serif" font-size="66" font-weight="750" letter-spacing="-2">Tarun</text>
+    <text x="76" y="211" fill="#EDF1FA" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="550">Frontend-leaning Full Stack Developer</text>
+    <text x="76" y="246" fill="#AEB7CC" font-family="Segoe UI,Arial,sans-serif" font-size="15">I build polished interfaces and practical products across the stack.</text>
+
+    <g transform="translate(76 273)" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing=".7">
+      <rect width="136" height="34" rx="17" fill="#FFFFFF" fill-opacity=".07" stroke="#FFFFFF" stroke-opacity=".2"/>
+      <circle cx="18" cy="17" r="4" fill="#A99EFF"/>
+      <text x="31" y="21" fill="#D9D3FF">UI ENGINEERING</text>
+      <rect x="148" width="153" height="34" rx="17" fill="#FFFFFF" fill-opacity=".07" stroke="#FFFFFF" stroke-opacity=".2"/>
+      <circle cx="166" cy="17" r="4" fill="#68DCC8"/>
+      <text x="179" y="21" fill="#C5F5EF">FULL STACK</text>
     </g>
-    <circle cx="194" cy="120" r="2" fill="#8B7BFF" opacity=".8"/>
-    <circle cx="1000" cy="240" r="2" fill="#38D6C3" opacity=".8"/>
-    <path d="M170 212h88M214 168v88" stroke="#8B7BFF" stroke-opacity=".24" stroke-width="2"/>
-    <path d="M964 184h88M1008 140v88" stroke="#38D6C3" stroke-opacity=".22" stroke-width="2"/>
+
+    <g transform="translate(760 70)">
+      <rect x="0" y="0" width="350" height="220" rx="20" fill="#FFFFFF" fill-opacity=".075" stroke="#FFFFFF" stroke-opacity=".2"/>
+      <path d="M20 1h310" stroke="#FFFFFF" stroke-opacity=".25" stroke-linecap="round"/>
+      <rect x="24" y="27" width="302" height="166" rx="13" fill="#0C1321" fill-opacity=".48" stroke="#FFFFFF" stroke-opacity=".12"/>
+      <rect x="42" y="46" width="62" height="128" rx="9" fill="#9E91FF" fill-opacity=".17" stroke="#B6ABFF" stroke-opacity=".25"/>
+      <path d="M57 71h30M57 86h20M57 101h27" stroke="#C9C0FF" stroke-opacity=".6" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="72" cy="146" r="12" fill="#B2A7FF" fill-opacity=".8"/>
+      <rect x="123" y="47" width="177" height="52" rx="10" fill="#FFFFFF" fill-opacity=".075" stroke="#FFFFFF" stroke-opacity=".14"/>
+      <rect x="140" y="63" width="76" height="7" rx="3.5" fill="#FFFFFF" fill-opacity=".78"/>
+      <rect x="140" y="78" width="130" height="5" rx="2.5" fill="#FFFFFF" fill-opacity=".23"/>
+      <rect x="123" y="111" width="177" height="63" rx="10" fill="#39D3BE" fill-opacity=".075" stroke="#68DCC8" stroke-opacity=".19"/>
+      <path d="M141 155c17-17 26-11 38-25 11-14 25 6 36-4 9-9 20-9 38-23" stroke="#68DCC8" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="178" cy="130" r="4" fill="#B2FFF1"/>
+      <circle cx="215" cy="126" r="4" fill="#B2FFF1"/>
+      <circle cx="253" cy="103" r="4" fill="#B2FFF1"/>
+      <text x="24" y="215" fill="#AEB7CC" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="650" letter-spacing="1.5">DESIGN  ·  BUILD  ·  REFINE</text>
+    </g>
   </g>
-  <rect x=".75" y=".75" width="1198.5" height="328.5" rx="23.25" stroke="#FFFFFF" stroke-opacity=".12" stroke-width="1.5"/>
+  <rect x=".75" y=".75" width="1198.5" height="358.5" rx="25.25" stroke="#FFFFFF" stroke-opacity=".14" stroke-width="1.5"/>
 </svg>

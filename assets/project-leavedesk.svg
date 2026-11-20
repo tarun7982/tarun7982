@@ -1,31 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" fill="none">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="720" y2="220" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#12272B"/>
-      <stop offset="1" stop-color="#172039"/>
+      <stop stop-color="#122329"/>
+      <stop offset="1" stop-color="#18243A"/>
     </linearGradient>
-    <linearGradient id="card" x1="455" y1="38" x2="667" y2="180" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#1A3940"/>
-      <stop offset="1" stop-color="#202842"/>
-    </linearGradient>
+    <filter id="blur" x="416" y="12" width="314" height="210" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="25"/>
+    </filter>
   </defs>
-  <rect x=".75" y=".75" width="718.5" height="218.5" rx="18" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity=".14" stroke-width="1.5"/>
-  <circle cx="610" cy="106" r="95" fill="#38D6C3" fill-opacity=".08"/>
-  <rect x="463" y="39" width="204" height="141" rx="12" fill="url(#card)" stroke="#FFFFFF" stroke-opacity=".18"/>
-  <rect x="479" y="55" width="56" height="109" rx="8" fill="#0F1823" fill-opacity=".7"/>
-  <rect x="489" y="68" width="36" height="5" rx="2.5" fill="#38D6C3"/>
-  <rect x="489" y="82" width="28" height="4" rx="2" fill="#FFFFFF" fill-opacity=".25"/>
-  <rect x="489" y="96" width="33" height="4" rx="2" fill="#FFFFFF" fill-opacity=".25"/>
-  <rect x="489" y="110" width="23" height="4" rx="2" fill="#FFFFFF" fill-opacity=".25"/>
-  <rect x="548" y="55" width="102" height="47" rx="8" fill="#38D6C3" fill-opacity=".13" stroke="#38D6C3" stroke-opacity=".28"/>
-  <path d="M562 83v-8l7-7 7 7v8M566 83v-6h6v6" stroke="#72E3D5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="582" y="67" width="53" height="5" rx="2.5" fill="#E5F8F5" fill-opacity=".75"/>
-  <rect x="582" y="78" width="37" height="4" rx="2" fill="#E5F8F5" fill-opacity=".3"/>
-  <rect x="548" y="111" width="102" height="53" rx="8" fill="#FFFFFF" fill-opacity=".04"/>
-  <path d="M561 124h75M561 135h55M561 146h63" stroke="#FFFFFF" stroke-opacity=".18" stroke-width="4" stroke-linecap="round"/>
-  <text x="48" y="80" fill="#72E3D5" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">FEATURED PROJECT</text>
-  <text x="48" y="120" fill="#F2F2FA" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700">LeaveDesk</text>
-  <text x="48" y="151" fill="#AEB7CC" font-family="Segoe UI,Arial,sans-serif" font-size="15">Leave management · Role-based workflows</text>
-  <path d="M48 181h36" stroke="#38D6C3" stroke-width="2" stroke-linecap="round"/>
-  <path d="M78 176l6 5-6 5" stroke="#38D6C3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x=".75" y=".75" width="718.5" height="218.5" rx="18" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity=".16" stroke-width="1.5"/>
+  <circle cx="566" cy="107" r="67" fill="#42D2BB" fill-opacity=".21" filter="url(#blur)"/>
+  <rect x="14" y="14" width="692" height="192" rx="15" fill="#FFFFFF" fill-opacity=".035" stroke="#FFFFFF" stroke-opacity=".11"/>
+  <rect x="447" y="38" width="223" height="144" rx="14" fill="#FFFFFF" fill-opacity=".075" stroke="#FFFFFF" stroke-opacity=".22"/>
+  <rect x="463" y="55" width="53" height="111" rx="9" fill="#0F1823" fill-opacity=".54" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <rect x="474" y="68" width="31" height="5" rx="2.5" fill="#72E3D5"/>
+  <rect x="474" y="83" width="25" height="4" rx="2" fill="#FFFFFF" fill-opacity=".27"/>
+  <rect x="474" y="97" width="30" height="4" rx="2" fill="#FFFFFF" fill-opacity=".27"/>
+  <rect x="474" y="111" width="21" height="4" rx="2" fill="#FFFFFF" fill-opacity=".27"/>
+  <rect x="529" y="55" width="124" height="48" rx="9" fill="#42D2BB" fill-opacity=".11" stroke="#72E3D5" stroke-opacity=".25"/>
+  <path d="M544 85v-8l7-7 7 7v8M548 85v-6h6v6" stroke="#8DE9DA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="568" y="69" width="65" height="5" rx="2.5" fill="#E5F8F5" fill-opacity=".78"/>
+  <rect x="568" y="81" width="48" height="4" rx="2" fill="#E5F8F5" fill-opacity=".33"/>
+  <rect x="529" y="112" width="124" height="54" rx="9" fill="#FFFFFF" fill-opacity=".045" stroke="#FFFFFF" stroke-opacity=".09"/>
+  <path d="M544 127h94M544 139h66M544 151h82" stroke="#FFFFFF" stroke-opacity=".21" stroke-width="4" stroke-linecap="round"/>
+  <text x="38" y="72" fill="#72E3D5" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2">FEATURED PROJECT</text>
+  <text x="38" y="112" fill="#F2F4FA" font-family="Segoe UI,Arial,sans-serif" font-size="29" font-weight="700">LeaveDesk</text>
+  <text x="38" y="143" fill="#B0BACD" font-family="Segoe UI,Arial,sans-serif" font-size="14">Leave management · Role-based workflows</text>
+  <path d="M38 174h34" stroke="#42D2BB" stroke-width="2" stroke-linecap="round"/>
+  <path d="m66 169 6 5-6 5" stroke="#42D2BB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
