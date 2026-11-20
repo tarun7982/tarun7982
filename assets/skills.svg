@@ -1,0 +1,46 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="15">
+  <defs>
+    <linearGradient id="bar" x1="0" x2="1">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#a371f7"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="899" height="299" rx="12" fill="#0d1117" stroke="#30363d"/>
+
+  <g fill="#c9d1d9">
+    <text x="32" y="48">HTML5</text>
+    <text x="32" y="92">CSS3 / Animations</text>
+    <text x="32" y="136">JavaScript</text>
+    <text x="32" y="180">React</text>
+    <text x="32" y="224">Git &amp; GitHub</text>
+    <text x="32" y="268">Node.js</text>
+  </g>
+
+  <g fill="#21262d">
+    <rect x="220" y="37" width="560" height="10" rx="5"/>
+    <rect x="220" y="81" width="560" height="10" rx="5"/>
+    <rect x="220" y="125" width="560" height="10" rx="5"/>
+    <rect x="220" y="169" width="560" height="10" rx="5"/>
+    <rect x="220" y="213" width="560" height="10" rx="5"/>
+    <rect x="220" y="257" width="560" height="10" rx="5"/>
+  </g>
+
+  <g fill="url(#bar)">
+    <rect x="220" y="37" width="0" height="10" rx="5"><animate attributeName="width" from="0" to="504" dur="1.2s" begin="0.2s" fill="freeze"/></rect>
+    <rect x="220" y="81" width="0" height="10" rx="5"><animate attributeName="width" from="0" to="476" dur="1.2s" begin="0.4s" fill="freeze"/></rect>
+    <rect x="220" y="125" width="0" height="10" rx="5"><animate attributeName="width" from="0" to="448" dur="1.2s" begin="0.6s" fill="freeze"/></rect>
+    <rect x="220" y="169" width="0" height="10" rx="5"><animate attributeName="width" from="0" to="392" dur="1.2s" begin="0.8s" fill="freeze"/></rect>
+    <rect x="220" y="213" width="0" height="10" rx="5"><animate attributeName="width" from="0" to="392" dur="1.2s" begin="1.0s" fill="freeze"/></rect>
+    <rect x="220" y="257" width="0" height="10" rx="5"><animate attributeName="width" from="0" to="280" dur="1.2s" begin="1.2s" fill="freeze"/></rect>
+  </g>
+
+  <g fill="#8b949e" font-size="14" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1.4s" fill="freeze"/>
+    <text x="800" y="48">90%</text>
+    <text x="800" y="92">85%</text>
+    <text x="800" y="136">80%</text>
+    <text x="800" y="180">70%</text>
+    <text x="800" y="224">70%</text>
+    <text x="800" y="268">50%</text>
+  </g>
+</svg>

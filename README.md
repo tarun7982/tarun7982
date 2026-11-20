@@ -1,40 +1,63 @@
+<!-- Place this README.md and the assets/ folder in your repo: tarun7982/tarun7982 -->
+
 <div align="center">
 
-# Tarun
-
-**Frontend-leaning Full Stack Developer**
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1200&color=8B949E&center=true&vCenter=true&width=480&lines=Building+clean%2C+fast+web+interfaces;HTML+%C2%B7+CSS+%C2%B7+JavaScript+%C2%B7+React" alt="Typing SVG" />
+<img src="assets/header.svg" alt="Tarun - Frontend-leaning Full Stack Developer" width="100%" />
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-LINKEDIN)
-[![Email](https://img.shields.io/badge/Email-30363D?style=flat-square&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-30363D?style=flat-square&logo=googlechrome&logoColor=white)](https://YOUR-PORTFOLIO-URL)
+<a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:YOUR-EMAIL@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://YOUR-PORTFOLIO-URL"><img src="https://img.shields.io/badge/Portfolio-58a6ff?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+<img src="https://img.shields.io/badge/Open%20to-Opportunities-3fb950?style=for-the-badge" />
 
-</div>
+<br/><br/>
+<img src="assets/divider.svg" width="100%" />
+<br/><br/>
 
----
+<img src="assets/terminal.svg" alt="Terminal intro" width="100%" />
 
-### About
+<br/><br/>
+<img src="assets/divider.svg" width="100%" />
 
-I build responsive, performance-focused web interfaces with a strong eye for detail and motion. I work mainly with vanilla HTML, CSS and JavaScript, and with React for larger apps. Currently expanding into TypeScript and Node.js.
-
-### Tech Stack
+<h3>Tech Stack</h3>
 
 <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,git,github,figma,vscode&theme=dark" />
 
-### Featured Projects
+<br/><br/>
+
+<img src="assets/skills.svg" alt="Skill proficiency" width="100%" />
+
+<br/><br/>
+<img src="assets/divider.svg" width="100%" />
+
+<h3>Featured Projects</h3>
+
+</div>
 
 | Project | Description | Stack |
-|---|---|---|
-| [**Portfolio**](https://YOUR-PORTFOLIO-URL) | Personal portfolio with animations and responsive layout | HTML, CSS, JS |
-| [**Project Two**](https://github.com/tarun7982/REPO-NAME) | One-line description | React |
-| [**Project Three**](https://github.com/tarun7982/REPO-NAME) | One-line description | JavaScript |
+|:--|:--|:--|
+| 🌐 [**Portfolio**](https://YOUR-PORTFOLIO-URL) | Personal portfolio with smooth animations and responsive layout | `HTML` `CSS` `JavaScript` |
+| ⚛️ [**Project Two**](https://github.com/tarun7982/REPO-NAME) | One-line description of what it does | `React` |
+| 🧩 [**Project Three**](https://github.com/tarun7982/REPO-NAME) | One-line description of what it does | `JavaScript` |
 
-### GitHub Activity
+<div align="center">
 
-<p>
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=tarun7982&show_icons=true&theme=transparent&hide_border=true&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarun7982&layout=compact&theme=transparent&hide_border=true&title_color=58a6ff&text_color=8b949e" />
-</p>
+<br/>
+<img src="assets/divider.svg" width="100%" />
+
+<h3>GitHub Stats</h3>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=tarun7982&show_icons=true&theme=dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&icon_color=a371f7&text_color=c9d1d9&border_radius=12" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarun7982&layout=compact&theme=dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&border_radius=12" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com/?user=tarun7982&theme=dark&background=0d1117&border=30363D&ring=58a6ff&fire=a371f7&currStreakLabel=58a6ff&border_radius=12" />
+
+<br/><br/>
+<img src="assets/divider.svg" width="100%" />
+
+<sub>Thanks for stopping by ✌️</sub>
+
+</div>
